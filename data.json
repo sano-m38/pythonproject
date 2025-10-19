@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "agentID": "AGENT19",
+            "name": "tw",
+            "password": "$2b$12$Ph4G7SF1zozD.FmfmGJCDOP/2ccgY3IbMinHkZIMuhm0abFoRbqx6"
+        },
+        {
+            "agentID": "AGENT20",
+            "name": "li",
+            "password": "$2b$12$70clStPBTQzi01seEUvHf.MWZ59fK6voeDyJ.EiSm/hh1LlVZ9/ka"
+        },
+        {
+            "agentID": "AGENT3",
+            "name": "alice",
+            "password": "$2b$12$UlOGHj/KXUFdxwd45wQU5eq/Fp05Ufflm8FpEnF/C5WVlgY.eEMUC"
+        },
+        {
+            "agentID": "AGENT4",
+            "name": "yung",
+            "password": "$2b$12$W8F0S789jxSAIy3Ak5ue2uB.YjlrqsmV/.48ztrYR6lvCrYcUPBuK"
+        },
+        {
+            "agentID": "AGENT5",
+            "name": "sam",
+            "password": "$2b$12$8NNI14XH4pMzuF38LD/kROkDA7kXtNWJjaIOsO1KwCTKwf3TV1M5C"
+        }
+    ]
+}

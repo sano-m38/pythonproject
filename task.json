@@ -1,0 +1,52 @@
+{
+    "tasks": [
+        {
+            "task description": {
+                "ciphertext": "c377e878efa64014e6068e9833",
+                "nonce": "1d308690eae0fb28"
+            },
+            "due date": "13.09.25",
+            "project level": {
+                "ciphertext": "8bfac4aaf57b1f99117a62e8",
+                "nonce": "02d23e2d5c374fb7"
+            },
+            "agentID": "AGENT3"
+        },
+        {
+            "task description": {
+                "ciphertext": "24b953d2472289c75bb8ce1dd7",
+                "nonce": "87870250e126fc6b"
+            },
+            "due date": "13.09.25",
+            "project level": {
+                "ciphertext": "bd49e4152754",
+                "nonce": "88c74a0ffc477ef2"
+            },
+            "agentID": "AGENT3"
+        },
+        {
+            "task description": {
+                "ciphertext": "ada7861f3fc915603a0d6a50b4ba",
+                "nonce": "2ae38353dcaa2946"
+            },
+            "due date": "19.10.25",
+            "project level": {
+                "ciphertext": "0624207f78cf3d707b10a6b5",
+                "nonce": "c7704a6e81c8df2f"
+            },
+            "agentID": "AGENT4"
+        },
+        {
+            "task description": {
+                "ciphertext": "50420c92823ecc74f50aa39a98bf",
+                "nonce": "a9acee22b8537546"
+            },
+            "due date": "19.10.25",
+            "project level": {
+                "ciphertext": "cda177b28575aede8116fc59",
+                "nonce": "008dc84f2022b48b"
+            },
+            "agentID": "AGENT5"
+        }
+    ]
+}
