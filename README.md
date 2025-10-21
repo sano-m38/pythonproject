@@ -17,6 +17,7 @@ You are tasked with building a command-line-based Task Management system using P
 1. Use argparse module to handle command-line arguments and create a user-friendly command-line interface.
 An example is shown below:
 <img width="234" height="192" alt="image" src="https://github.com/user-attachments/assets/75025ffb-c625-486a-bf64-2e9e345cec0f" />
+<br>
 2. Design a mechanism to handle password resets with strong security checks to ensure the agent's identity.
 3. create a separate log file that records all user activities (e.g login attempts, task updates) for auditing purposes, ensuring that this log file is also encrypted and accessible only to authorised personnel (implement authorisation_level attribute in the User class).
 
