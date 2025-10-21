@@ -21,7 +21,7 @@ An example is shown below:
 2. Design a mechanism to handle password resets with strong security checks to ensure the agent's identity.
 3. create a separate log file that records all user activities (e.g login attempts, task updates) for auditing purposes, ensuring that this log file is also encrypted and accessible only to authorised personnel (implement authorisation_level attribute in the User class).
 
-
+<br>
 After developing the tool, you should upload it to github in a new repository.
 Report 
 You should also write a very brief report (1-2 pages) describing the tool that you developed. include the challenges and difficulties that you faced during the development of the software and how you managed to overcome them. You should also describe the functionality that you managed to implement and what you were not able to. 
