@@ -13,30 +13,6 @@ You are tasked with building a command-line-based Task Management system using P
    - Decrypt and view sensitive task details (description) only after successful authentification with a secure token (a one-time code provided by the agency).
 5. Store user account information and encrypted tasks in separate files securely.
 
-# Optional tasks 
-1. Use argparse module to handle command-line arguments and create a user-friendly command-line interface.
-An example is shown below:
-<img width="234" height="192" alt="image" src="https://github.com/user-attachments/assets/75025ffb-c625-486a-bf64-2e9e345cec0f" />
-<br>
-2. Design a mechanism to handle password resets with strong security checks to ensure the agent's identity.
-3. create a separate log file that records all user activities (e.g login attempts, task updates) for auditing purposes, ensuring that this log file is also encrypted and accessible only to authorised personnel (implement authorisation_level attribute in the User class).
-<br>
-<br>
-After developing the tool, you should upload it to github in a new repository.
-<br>
-<br>
-Report 
-You should also write a very brief report (1-2 pages) describing the tool that you developed. include the challenges and difficulties that you faced during the development of the software and how you managed to overcome them. You should also describe the functionality that you managed to implement and what you were not able to. 
-
-
-
-
-
-
-
-
-
-
 
 
 
