@@ -25,9 +25,7 @@ You are tasked with building a command-line-based Task Management system using P
 
 - The diagram organizes system functionality into 7 methods across two classes, clearly distinguishing between operations that:
 
-Act on the class itself (class methods)
-Operate on individual objects (instance methods)
-Perform utility tasks without relying on object state (static methods).
+Act on the class itself (class methods), Operate on individual objects (instance methods) and Perform utility tasks without relying on object state (static methods).
 <img width="653" height="717" alt="Screenshot 2026-03-20 150228" src="https://github.com/user-attachments/assets/154f7f6f-c1b6-4ec4-8a81-fa0363f570fc" />
 
 
