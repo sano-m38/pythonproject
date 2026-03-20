@@ -16,17 +16,18 @@ You are tasked with building a command-line-based Task Management system using P
 # How did I do it ?
 - These are some of the planning that I did before starting development.
   
-  The project methodology has been structured into two distinct phases.
+The project methodology has been structured into two distinct phases.
 <img width="683" height="259" alt="image" src="https://github.com/user-attachments/assets/9b3cefed-093f-4afe-8d6c-c84909fe1af9" />
+
 
 The system is composed of two main classes—User and Task—and both are designed with equal complexity, each containing three attributes and three methods.
 <img width="536" height="319" alt="Screenshot 2026-03-20 145936" src="https://github.com/user-attachments/assets/15f90902-0c3b-42ed-a30c-bdadafa805b5" />
 
 The diagram organizes system functionality into 7 methods across two classes, clearly distinguishing between operations that:
 
-Act on the class itself (class methods),
+Act on the class itself (class methods)
 
-Operate on individual objects (instance methods), and
+Operate on individual objects (instance methods)
 
 Perform utility tasks without relying on object state (static methods).
 <img width="653" height="717" alt="Screenshot 2026-03-20 150228" src="https://github.com/user-attachments/assets/154f7f6f-c1b6-4ec4-8a81-fa0363f570fc" />
@@ -35,7 +36,7 @@ Perform utility tasks without relying on object state (static methods).
 
 - I also designed the following flow chart to understand the program flow.
 <img width="810" height="646" alt="image" src="https://github.com/user-attachments/assets/f3d70879-7508-4b2f-a56b-768184b6a53c" />
-    <img width="665" height="712" alt="image" src="https://github.com/user-attachments/assets/771e2dbd-fdce-4680-987e-c82811b8705e" />
+<img width="665" height="712" alt="image" src="https://github.com/user-attachments/assets/771e2dbd-fdce-4680-987e-c82811b8705e" />
 
 
 
