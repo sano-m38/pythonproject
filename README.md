@@ -39,7 +39,8 @@ Perform utility tasks without relying on object state (static methods).
 <img width="665" height="712" alt="image" src="https://github.com/user-attachments/assets/771e2dbd-fdce-4680-987e-c82811b8705e" />
 
 
-3. First create files: 1 python file that consist the main program, second create a data json file which store agent account data and last create task json file which stores encrypted task data.
+3. First create files:
+   - 1 python file that consist the main program, second create a data json file which store agent account data and last create task json file which stores encrypted task data.
   
 4. Registration process
    - When an agent registers, the system automatically generates a unique ID like AGENT6.
@@ -48,7 +49,6 @@ Perform utility tasks without relying on object state (static methods).
 
    This hash is unique every time, even for the same password, because bcrypt uses random salt.”
    As you can see when we enter the password no characters appear on the screen as a security measure. This was done using getpass which is applied in the registration and login processes. 
-
 
 5. Login process 
    - During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw()refer line 66
