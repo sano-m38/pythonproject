@@ -13,6 +13,10 @@ You are tasked with building a command-line-based Task Management system using P
    - Decrypt and view sensitive task details (description) only after successful authentification with a secure token (a one-time code provided by the agency).
 5. Store user account information and encrypted tasks in separate files securely.
 
+# How did I do it ?
+- These are some of the planning that I did before starting development.
+  Here i divided the project methodology into 2 phase.
+<img width="683" height="259" alt="image" src="https://github.com/user-attachments/assets/9b3cefed-093f-4afe-8d6c-c84909fe1af9" />
 
 
 
