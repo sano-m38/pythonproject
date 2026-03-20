@@ -42,7 +42,7 @@ Perform utility tasks without relying on object state (static methods).
 3. First create files: 1 python file that consist the main program, second create a data json file which store agent account data and last create task json file which stores encrypted task data.
   
 4. Registration process
-   When an agent registers, the system automatically generates a unique ID like AGENT6.
+   - When an agent registers, the system automatically generates a unique ID like AGENT6.
    The password is hashed using the bcrypt library, which means it’s converted into an irreversible hash before being stored.
    This ensures that even if someone opens the JSON file, they can’t see the real password.
 
@@ -51,21 +51,21 @@ Perform utility tasks without relying on object state (static methods).
 
 
 5. Login process 
-  -During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw()refer line 66
+   - During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw()refer line 66
    If it matches, login succeeds and the agent’s information is loaded into memory.
 
 6. Add task process
-  -Each task is linked to the agent who created it via their agentID. See task.json file refer to line 13.
+   - Each task is linked to the agent who created it via their agentID. See task.json file refer to line 13.
    The 2 variables that are encrypted are task description and project level. Before encryption, the AES key is derived from the agent’s password using an algorithm (PBKDF2). See task.json refer to line 4 and 9.
    The actual task text and project level is not visible — it’s stored as ciphertext along with a unique nonce. Only the agent who created the task can decrypt it.
 
 7. View task process
-  -If a wrong OTP is entered, the system hides the confidential data and only shows a redacted summary.
+   - If a wrong OTP is entered, the system hides the confidential data and only shows a redacted summary.
    the correct OTP (123456):
    When the correct OTP is entered, the program decrypts the data using AES CTR mode and displays the full information.
 
 8. Logout & Exit process
-  -Choose 3. LOGOUT, then 3. EXIT
+   - Choose 3. LOGOUT, then 3. EXIT
    The agent logs out, and the system ends safely.
 
 
