@@ -47,7 +47,7 @@ Perform utility tasks without relying on object state (static methods).
    The password is hashed using the bcrypt library, which means it’s converted into an irreversible hash before being stored.
    This ensures that even if someone opens the JSON file, they can’t see the real password.
 
-   This hash is unique every time, even for the same password, because bcrypt uses random salt.”
+   - This hash is unique every time, even for the same password, because bcrypt uses random salt.”
    As you can see when we enter the password no characters appear on the screen as a security measure. This was done using getpass which is applied in the registration and login processes. 
 
 5. Login process 
