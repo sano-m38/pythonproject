@@ -19,9 +19,21 @@ You are tasked with building a command-line-based Task Management system using P
   The project methodology has been structured into two distinct phases.
 <img width="683" height="259" alt="image" src="https://github.com/user-attachments/assets/9b3cefed-093f-4afe-8d6c-c84909fe1af9" />
 
+The system is composed of two main classes—User and Task—and both are designed with equal complexity, each containing three attributes and three methods.
+<img width="536" height="319" alt="Screenshot 2026-03-20 145936" src="https://github.com/user-attachments/assets/15f90902-0c3b-42ed-a30c-bdadafa805b5" />
+
+The diagram organizes system functionality into 7 methods across two classes, clearly distinguishing between operations that:
+
+Act on the class itself (class methods),
+
+Operate on individual objects (instance methods), and
+
+Perform utility tasks without relying on object state (static methods).
+<img width="593" height="573" alt="Screenshot 2026-03-20 150213" src="https://github.com/user-attachments/assets/b9d7aa91-14a9-4a5d-ab7b-f65ff32c1e88" />
 
 
-
+- I also designed the following flow chart to understand the program flow.
+<img width="403" height="677" alt="image" src="https://github.com/user-attachments/assets/4ebedc1f-4e5e-45c9-aaee-7abb3c2df637" />
 
 
 
