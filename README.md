@@ -29,7 +29,8 @@ Act on the class itself (class methods),
 Operate on individual objects (instance methods), and
 
 Perform utility tasks without relying on object state (static methods).
-<img width="593" height="573" alt="Screenshot 2026-03-20 150213" src="https://github.com/user-attachments/assets/b9d7aa91-14a9-4a5d-ab7b-f65ff32c1e88" />
+<img width="653" height="717" alt="Screenshot 2026-03-20 150228" src="https://github.com/user-attachments/assets/154f7f6f-c1b6-4ec4-8a81-fa0363f570fc" />
+
 
 
 - I also designed the following flow chart to understand the program flow.
