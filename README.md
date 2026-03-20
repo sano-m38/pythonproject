@@ -51,21 +51,21 @@ Perform utility tasks without relying on object state (static methods).
 
 
 5. Login process 
-   During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw()refer line 66
-   If it matches, login succeeds and the agent’s information is loaded into memory.”
+  -During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw()refer line 66
+   If it matches, login succeeds and the agent’s information is loaded into memory.
 
 6. Add task process
-   Each task is linked to the agent who created it via their agentID. See task.json file refer to line 13.
+  -Each task is linked to the agent who created it via their agentID. See task.json file refer to line 13.
    The 2 variables that are encrypted are task description and project level. Before encryption, the AES key is derived from the agent’s password using an algorithm (PBKDF2). See task.json refer to line 4 and 9.
    The actual task text and project level is not visible — it’s stored as ciphertext along with a unique nonce. Only the agent who created the task can decrypt it.
 
 7. View task process
-   If a wrong OTP is entered, the system hides the confidential data and only shows a redacted summary.
+  -If a wrong OTP is entered, the system hides the confidential data and only shows a redacted summary.
    the correct OTP (123456):
    When the correct OTP is entered, the program decrypts the data using AES CTR mode and displays the full information.
 
 8. Logout & Exit process
-   Choose 3. LOGOUT, then 3. EXIT
+  -Choose 3. LOGOUT, then 3. EXIT
    The agent logs out, and the system ends safely.
 
 
