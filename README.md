@@ -34,7 +34,9 @@ Perform utility tasks without relying on object state (static methods).
 
 
 - I also designed the following flow chart to understand the program flow.
-<img width="403" height="677" alt="image" src="https://github.com/user-attachments/assets/4ebedc1f-4e5e-45c9-aaee-7abb3c2df637" />
+<img width="810" height="646" alt="image" src="https://github.com/user-attachments/assets/f3d70879-7508-4b2f-a56b-768184b6a53c" />
+<img width="665" height="712" alt="image" src="https://github.com/user-attachments/assets/771e2dbd-fdce-4680-987e-c82811b8705e" />
+
 
 
 
