@@ -15,7 +15,8 @@ You are tasked with building a command-line-based Task Management system using P
 
 # How did I do it ?
 - These are some of the planning that I did before starting development.
-  Here i divided the project methodology into 2 phase.
+  
+  The project methodology has been structured into two distinct phases.
 <img width="683" height="259" alt="image" src="https://github.com/user-attachments/assets/9b3cefed-093f-4afe-8d6c-c84909fe1af9" />
 
 
