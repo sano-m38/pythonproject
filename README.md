@@ -1,15 +1,15 @@
 # Course project
 
 # Task Description
-You are tasked with building a command-line-based Task Management system using Python for a top-secret government agency. The agency deals with highly classified projects, and security is of utomost importance. Your application must provide a secure and effcient way for agents to manage their tasks  while ensuring that all data remains encrypted and protected. 
+You are tasked with building a command-line-based Task Management system using Python for a top-secret government agency. The agency deals with highly classified projects, and security is of utmost importance. Your application must provide a secure and efficient way for agents to manage their tasks while ensuring that all data remains encrypted and protected. 
 
 # Project tasks 
-1. Implement a User class to represent a governerment agent. The user class should have attributes like agent ID, username , hased password (using a strong encryption algorithm like bcrypt), and a list of encrypted tasks associated with the agent.
-2. Allow agents to register an account with a unique agent ID, username, and password. The agent ID should be provided by the agency to ensure uniquess and identification.
-3. Use the cryptography library in python to implement data encryption and decryption. Use AES encryption with a strong encryption key derived from mthe user's password.
+1. Implement a User class to represent a government agent. The user class should have attributes like agent ID, username , hashed password (using a strong encryption algorithm like bcrypt), and a list of encrypted tasks associated with the agent.
+2. Allow agents to register an account with a unique agent ID, username and password. The agent ID should be provided by the agency to ensure uniqueness and identification.
+3. Use the cryptography library in python to implement data encryption and decryption. Use AES encryption with a strong encryption key derived from the user's password.
 4. User should be able to:
-   - Add a new task to their list, including a task description, due date, and project calssfication level (e.g., Top secrete, Secret, Confidential).
-   - View all tasks in their list with the sensititve data redacted (e.g., task description and project calssification).
+   - Add a new task to their list, including a task description, due date, and project classification level (e.g., Top secret, Secret, Confidential).
+   - View all tasks in their list with the sensititve data redacted (e.g., task description and project classification).
    - Decrypt and view sensitive task details (description) only after successful authentification with a secure token (a one-time code provided by the agency).
 5. Store user account information and encrypted tasks in separate files securely.
 
@@ -25,7 +25,8 @@ You are tasked with building a command-line-based Task Management system using P
 
 - The diagram organizes system functionality into 7 methods across two classes, clearly distinguishing between operations that:
 
-Act on the class itself (class methods), Operate on individual objects (instance methods) and Perform utility tasks without relying on object state (static methods).
+Act on the class itself (class methods), Operate on individual objects (instance methods) and Perform utility tasks without relying on object state (static methods).  Finally, I created one additional method for the User class contrary to the total number of methods mentioned in the above figure.
+
 <img width="653" height="717" alt="Screenshot 2026-03-20 150228" src="https://github.com/user-attachments/assets/154f7f6f-c1b6-4ec4-8a81-fa0363f570fc" />
 
 
@@ -36,19 +37,20 @@ Act on the class itself (class methods), Operate on individual objects (instance
 
 
 
-3. First create files:
-   - 1 python file that consist the main program, second create a data json file which store agent account data and last create task json file which stores encrypted task data.
-  
+3. Then I created the program structure as follows :
+   - 1 python file that consists of the main program,
+   - 1 data json file which stores agent account data and
+   - 1 task json file which stores encrypted task data.
+
 4. Registration process
    - When an agent registers, the system automatically generates a unique ID like AGENT6.
    The password is hashed using the bcrypt library, which means it’s converted into an irreversible hash before being stored.
    This ensures that even if someone opens the JSON file, they can’t see the real password.
-
-   - This hash is unique every time, even for the same password, because bcrypt uses random salt.”
-   As you can see when we enter the password no characters appear on the screen as a security measure. This was done using getpass which is applied in the registration and login processes. 
+   This hash is unique every time, even for the same password, because bcrypt uses random 'salt'.
+   - As you can see when we enter the password no characters appear on the screen as a security measure. This was done using getpass which is applied in the registration and login processes. 
 
 5. Login process 
-   - During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw()refer line 66
+   - During login, the entered password is verified against the stored bcrypt hash using bcrypt.checkpw() [refer to line 66].
    If it matches, login succeeds and the agent’s information is loaded into memory.
 
 6. Add task process
@@ -58,7 +60,7 @@ Act on the class itself (class methods), Operate on individual objects (instance
 
 7. View task process
    - If a wrong OTP is entered, the system hides the confidential data and only shows a redacted summary.
-   the correct OTP (123456):
+   The correct OTP which hard-coded in the program, for simplification, is : 123456
    When the correct OTP is entered, the program decrypts the data using AES CTR mode and displays the full information.
 
 8. Logout & Exit process
