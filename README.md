@@ -73,4 +73,4 @@ Act on the class itself (class methods), Operate on individual objects (instance
 - Key Derivation — PBKDF2 documentation: https://pycryptodome.readthedocs.io/en/latest/src/protocol/kdf.html
 - Encryption — AES (CTR Mode) documentation: https://pycryptodome.readthedocs.io/en/latest/src/cipher/aes.html
 - Secure Input — getpass library: https://docs.python.org/3/library/getpass.html
-- youtube: https://www.youtube.com/watch?v=v-EHqJ3BGe0 and https://www.youtube.com/watch?v=L2i6lELbNI0
+- Youtube: https://www.youtube.com/watch?v=v-EHqJ3BGe0 and https://www.youtube.com/watch?v=L2i6lELbNI0
