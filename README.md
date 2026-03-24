@@ -3,7 +3,7 @@
 # Task Description
 You are tasked with building a command-line-based Task Management system using Python for a top-secret government agency. The agency deals with highly classified projects, and security is of utmost importance. Your application must provide a secure and efficient way for agents to manage their tasks while ensuring that all data remains encrypted and protected. 
 
-# Project tasks 
+# Project features 
 1. Implement a User class to represent a government agent. The user class should have attributes like agent ID, username , hashed password (using a strong encryption algorithm like bcrypt), and a list of encrypted tasks associated with the agent.
 2. Allow agents to register an account with a unique agent ID, username and password. The agent ID should be provided by the agency to ensure uniqueness and identification.
 3. Use the cryptography library in python to implement data encryption and decryption. Use AES encryption with a strong encryption key derived from the user's password.
